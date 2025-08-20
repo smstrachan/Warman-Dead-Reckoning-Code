@@ -135,7 +135,7 @@ void loop() {
     Rstepper.moveRelative(1200);
     while (Lstepper.distanceToGo() != 0 || Rstepper.distanceToGo() != 0){
       Lstepper.run();
-      Rstepper.run();
+      Rstepper.run();]
     }
 
     // Robot starts to tip ramp
@@ -152,8 +152,8 @@ void loop() {
     // Robot backed off
     delay(40); // TODO: Increase delay?
 
-    Lstepper.setMaxSpeed(200);
-    Rstepper.setMaxSpeed(200);
+    Lstepper.setMaxSpeed(300);
+    Rstepper.setMaxSpeed(300);
 
     Lstepper.moveRelative(835);
     Rstepper.moveRelative(835);
