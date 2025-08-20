@@ -56,14 +56,14 @@ void setup() {
 
   
 
-  Lstepper.setMaxSpeed(400);
+  Lstepper.setMaxSpeed(800);
   Lstepper.setAcceleration(1000);
   Lstepper.setStepsPerRotation(200);   // 1.8° stepper motor
   Lstepper.setMicroStep(1);           // 1 microstepping
   Lstepper.setDistancePerRotation(267);  // 8mm per rotation
   Lstepper.setAnglePerRotation(360);   // Standard 360° per rotation
 
-  Rstepper.setMaxSpeed(400);
+  Rstepper.setMaxSpeed(800);
   Rstepper.setAcceleration(1000);
   Rstepper.setStepsPerRotation(200);   // 1.8° stepper motor
   Rstepper.setMicroStep(1);           // 1 microstepping
@@ -120,8 +120,8 @@ void loop() {
     }
     // Robot has balls
 
-    Lstepper.setMaxSpeed(200);
-    Rstepper.setMaxSpeed(200);
+    Lstepper.setMaxSpeed(250);
+    Rstepper.setMaxSpeed(250);
 
     Lstepper.moveRelative(-352);
     Rstepper.moveRelative(352);
@@ -155,8 +155,8 @@ void loop() {
     // Robot backed off
     // delay(40); // TODO: Increase delay?
 
-    Lstepper.setMaxSpeed(700);
-    Rstepper.setMaxSpeed(700);
+    Lstepper.setMaxSpeed(1100);
+    Rstepper.setMaxSpeed(1100);
 
     Lstepper.moveRelative(845);
     Rstepper.moveRelative(845);
