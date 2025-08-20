@@ -120,8 +120,8 @@ void loop() {
     }
     // Robot has balls
 
-    Lstepper.moveRelative(-350);
-    Rstepper.moveRelative(350);
+    Lstepper.moveRelative(-352);
+    Rstepper.moveRelative(352);
     while (Lstepper.distanceToGo() != 0 || Rstepper.distanceToGo() != 0){
       Lstepper.run();
       Rstepper.run();
@@ -140,7 +140,7 @@ void loop() {
 
     // Robot starts to tip ramp
 
-    // delay(300); 
+    // delay(300);
     Lstepper.setMaxSpeed(1500);
     Rstepper.setMaxSpeed(1500);
     Lstepper.moveRelative(-170);
@@ -165,8 +165,8 @@ void loop() {
   // Robot is at the end of the ramp
   // TODO: tune numbers for end 
 
-    Lstepper.moveRelative(-350);
-    Rstepper.moveRelative(350);
+    Lstepper.moveRelative(-352);
+    Rstepper.moveRelative(352);
     while (Lstepper.distanceToGo() != 0 || Rstepper.distanceToGo() != 0){
       Lstepper.run();
       Rstepper.run();
