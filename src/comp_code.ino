@@ -134,8 +134,8 @@ void loop() {
     // Lstepper.setMaxSpeed(200);
     // Rstepper.setMaxSpeed(200);
 
-    Lstepper.moveRelative(1210);
-    Rstepper.moveRelative(1210);
+    Lstepper.moveRelative(1220);
+    Rstepper.moveRelative(1220);
     while (Lstepper.distanceToGo() != 0 || Rstepper.distanceToGo() != 0){
       Lstepper.run();
       Rstepper.run();
