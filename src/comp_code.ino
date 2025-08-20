@@ -57,21 +57,21 @@ void setup() {
   
 
   Lstepper.setMaxSpeed(800);
-  Lstepper.setAcceleration(1000);
+  Lstepper.setAcceleration(1500);
   Lstepper.setStepsPerRotation(200);   // 1.8° stepper motor
   Lstepper.setMicroStep(1);           // 1 microstepping
   Lstepper.setDistancePerRotation(267);  // 8mm per rotation
   Lstepper.setAnglePerRotation(360);   // Standard 360° per rotation
 
   Rstepper.setMaxSpeed(800);
-  Rstepper.setAcceleration(1000);
+  Rstepper.setAcceleration(1500);
   Rstepper.setStepsPerRotation(200);   // 1.8° stepper motor
   Rstepper.setMicroStep(1);           // 1 microstepping
   Rstepper.setDistancePerRotation(267);  // 8mm per rotation
   Rstepper.setAnglePerRotation(360);   // Standard 360° per rotation
 
   Sstepper.setMaxSpeed(3500);
-  Sstepper.setAcceleration(1300);
+  Sstepper.setAcceleration(2000);
   Sstepper.setStepsPerRotation(200);   // 1.8° stepper motor
   Sstepper.setMicroStep(1);           // 1 microstepping
   Sstepper.setDistancePerRotation(60);  // 8mm per rotation
