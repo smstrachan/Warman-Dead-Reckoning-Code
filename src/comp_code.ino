@@ -150,7 +150,7 @@ void loop() {
       Rstepper.run();
     }
     // Robot backed off
-    delay(40); // TODO: Increase delay?
+    // delay(40); // TODO: Increase delay?
 
     Lstepper.setMaxSpeed(500);
     Rstepper.setMaxSpeed(500);
