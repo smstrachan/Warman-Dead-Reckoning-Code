@@ -140,7 +140,7 @@ void loop() {
 
     // Robot starts to tip ramp
 
-    delay(50);
+    // delay(50);
     Lstepper.setMaxSpeed(1500);
     Rstepper.setMaxSpeed(1500);
     Lstepper.moveRelative(-170);
