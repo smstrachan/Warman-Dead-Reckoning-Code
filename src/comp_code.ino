@@ -120,8 +120,8 @@ void loop() {
     }
     // Robot has balls
 
-    Lstepper.setMaxSpeed(250);
-    Rstepper.setMaxSpeed(250);
+    Lstepper.setMaxSpeed(300);
+    Rstepper.setMaxSpeed(300);
 
     Lstepper.moveRelative(-352);
     Rstepper.moveRelative(352);
