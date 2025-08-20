@@ -120,8 +120,8 @@ void loop() {
     }
     // Robot has balls
 
-    Lstepper.moveRelative(-360);
-    Rstepper.moveRelative(360);
+    Lstepper.moveRelative(-355);
+    Rstepper.moveRelative(355);
     while (Lstepper.distanceToGo() != 0 || Rstepper.distanceToGo() != 0){
       Lstepper.run();
       Rstepper.run();
