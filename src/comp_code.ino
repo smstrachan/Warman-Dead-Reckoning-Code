@@ -165,8 +165,8 @@ void loop() {
   // Robot is at the end of the ramp
   // TODO: tune numbers for end 
 
-    Lstepper.moveRelative(-352);
-    Rstepper.moveRelative(352);
+    Lstepper.moveRelative(-355);
+    Rstepper.moveRelative(355);
     while (Lstepper.distanceToGo() != 0 || Rstepper.distanceToGo() != 0){
       Lstepper.run();
       Rstepper.run();
