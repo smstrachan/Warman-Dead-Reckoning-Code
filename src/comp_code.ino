@@ -166,7 +166,9 @@ void loop() {
   // TODO: tune numbers for end 
 
 
-  
+    Lstepper.setMaxSpeed(300);
+    Rstepper.setMaxSpeed(300);
+
     Lstepper.moveRelative(-355);
     Rstepper.moveRelative(355);
     while (Lstepper.distanceToGo() != 0 || Rstepper.distanceToGo() != 0){
