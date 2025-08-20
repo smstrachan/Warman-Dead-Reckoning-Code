@@ -1,4 +1,4 @@
-// 19.1s
+// ~14.4s
 
 #include <Servo.h>
 #include <AccelStepper.h>
